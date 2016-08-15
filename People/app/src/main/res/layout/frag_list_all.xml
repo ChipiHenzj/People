@@ -45,9 +45,10 @@
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#8fffffff"
+        android:background="#78ffffff"
         android:id="@+id/layout_progress"
-        android:layout_below="@+id/app_bar">
+        android:layout_below="@+id/app_bar"
+        android:visibility="gone">
 
         <ProgressBar
             style="?android:attr/progressBarStyleLarge"

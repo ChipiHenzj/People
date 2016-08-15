@@ -108,7 +108,6 @@ public class FragEditStudent extends Fragment {
         initImageView();
 
         layoutProgress = ((FrameLayout) rootView.findViewById(R.id.layout_progress));
-        layoutProgress.setVisibility(View.GONE);
 
         if (getArguments() != null) {
             String studentId = getArguments().getString("studentObjectId");

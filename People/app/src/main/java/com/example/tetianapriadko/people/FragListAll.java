@@ -78,7 +78,6 @@ public class FragListAll extends Fragment implements AdapterAll.OnItemClickListe
         });
 
         layoutProgress = ((FrameLayout) rootView.findViewById(R.id.layout_progress));
-        layoutProgress.setVisibility(View.GONE);
 
         initSwipeRefresh(rootView);
         initRecyclerView();

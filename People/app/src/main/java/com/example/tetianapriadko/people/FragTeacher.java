@@ -102,7 +102,6 @@ public class FragTeacher extends Fragment {
         });
 
         layoutProgress = (FrameLayout)rootView.findViewById(R.id.layout_progress);
-        layoutProgress.setVisibility(View.GONE);
 
         FloatingActionButton fab = (FloatingActionButton) view.findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {

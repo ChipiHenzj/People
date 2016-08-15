@@ -102,7 +102,6 @@ public class FragAddTeacher extends Fragment {
         toggle.syncState();
 
         layoutProgress = (FrameLayout)rootView.findViewById(R.id.layout_progress);
-        layoutProgress.setVisibility(View.GONE);
 
         initEditText();
         initImageView();
