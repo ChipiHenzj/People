@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/app_bar">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:id="@+id/imageView_student"
+        android:src="@drawable/icon"
+        android:layout_alignBottom="@+id/textView_student"
+        android:layout_alignTop="@+id/textView_st_name"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="10dp"
+        android:contentDescription="@null"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="[student_name]"
+        android:id="@+id/textView_st_name"
+        android:textSize="20sp"
+        android:layout_toRightOf="@+id/imageView_student"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="[student_surname]"
+        android:id="@+id/textView_st_surname"
+        android:layout_toRightOf="@+id/textView_st_name"
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        android:gravity="center_vertical"
+        android:layout_marginTop="20dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student"
+        android:id="@+id/textView_student"
+        android:textSize="10sp"
+        android:layout_marginLeft="120dp"
+        android:gravity="bottom"
+        android:layout_alignParentBottom="false"
+        android:layout_below="@+id/textView_st_name"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:id="@+id/divide1"
+        android:layout_below="@id/textView_student"
+        android:background="@android:color/darker_gray"
+        android:layout_marginTop="7dp" />
+
+</RelativeLayout>

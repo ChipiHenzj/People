@@ -1,0 +1,14 @@
+<resources>>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    </style>
+
+    <style name="AlertDialogCustom" parent="@android:style/Theme.Material.Dialog">
+        <item name="android:textColor">@color/colorAccent</item>
+        <!--<item name="android:typeface">monospace</item>-->
+        <!--<item name="android:textSize">10sp</item>-->
+    </style>
+</resources>
