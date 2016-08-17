@@ -1,6 +1,9 @@
 package com.example.tetianapriadko.people;
 
+import android.app.Activity;
 import android.content.Intent;
+import android.graphics.Color;
+import android.os.Build;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.Fragment;
@@ -10,6 +13,9 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.view.Window;
+import android.view.WindowManager;
 import android.widget.TextView;
 
 import com.backendless.Backendless;
@@ -37,7 +43,6 @@ public class MainActivity extends AppCompatActivity
                 .findViewById(R.id.email)).setText(user.getEmail());
         ((TextView) navigationView.getHeaderView(0)
                 .findViewById(R.id.name)).setText((String) user.getProperty(NAME));
-
     }
 
     @Override
